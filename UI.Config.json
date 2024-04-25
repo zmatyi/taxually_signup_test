@@ -1,0 +1,8 @@
+{
+    "BrowserEnumType": "Chrome",
+    "BaseAddress": "https://app.taxually.com/",
+    "NumberOfVatCountries": 3,
+    "BusinessLocationCountry": "United Kingdom",
+    "EmailAddress":"",
+    "Password": ""
+}
