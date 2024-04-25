@@ -7,7 +7,7 @@ public static class ConfigManager
     private static readonly IConfiguration Configuration;
     static ConfigManager()
     {
-        Configuration = new ConfigurationBuilder().AddJsonFile("UI.Config.json").Build();
+        Configuration = new ConfigurationBuilder().AddJsonFile("UI.Config.json").AddUserSecrets<Config>().Build();
     }
 
     public static Config GetConfig() =>

@@ -19,6 +19,7 @@
         "Password": "" // Sensitive data, add your credentials, use user secret to hide your sensitive data
     }
     ```
+    In Visual Studio you can set user secret in the following way: [In Visual Studio, right-click the project in Solution Explorer, and select Manage User Secrets from the context menu.](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows#use-visual-studio).
 4. Execute the tests using the following command:
     ```
     dotnet test
